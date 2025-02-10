@@ -64,6 +64,7 @@ print(totalizar(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)) # 55
 # Empaquetamiento de Argumentos Keyword
 
 def informacion(**kargs):
+    print(kargs)
     return f"Nombre: {kargs["nombre"]} {kargs["apellido"]}"
 
 
